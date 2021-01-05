@@ -1,0 +1,20 @@
+Classification Report:
+                     precision    recall  f1-score   support
+
+            imaging       0.85      1.00      0.92        28
+         linecharts       0.53      1.00      0.70        31
+               maps       0.79      0.56      0.65        27
+             photos       0.72      0.97      0.83        30
+          piecharts       0.86      1.00      0.92        30
+             slides       0.85      0.63      0.72        35
+structured_diagrams       0.65      0.83      0.73        29
+             tables       1.00      0.80      0.89        30
+ technical_drawings       0.73      0.48      0.58        23
+      scatter_plots       0.00      0.00      0.00        25
+         bar_charts       0.94      0.94      0.94        32
+
+           accuracy                           0.76       320
+          macro avg       0.72      0.74      0.72       320
+       weighted avg       0.73      0.76      0.73       320
+
+Seeing as scatter_plots and linecharts are difficult to distinguish for the network, represent info in the same way (position relative to axes), and could both be introduced and described in the same way (as X-Y plots, with template distinctions based on the number of points), I decided to see if merging those classes would allow the other classes to converge better.

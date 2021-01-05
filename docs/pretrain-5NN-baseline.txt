@@ -1,0 +1,38 @@
+W0823 15:36:03.368789 140527929108096 __init__.py:308] Limited tf.compat.v2.summary API due to missing TensorBoard installation.
+                     precision    recall  f1-score   support
+
+            imaging       0.87      0.97      0.91       260
+         linecharts       0.52      0.69      0.59       285
+               maps       0.58      0.65      0.61       248
+             photos       0.92      0.95      0.93       270
+          piecharts       0.55      0.73      0.62       278
+             slides       0.55      0.61      0.58       315
+structured_diagrams       0.57      0.60      0.59       262
+             tables       0.56      0.48      0.52       271
+ technical_drawings       0.54      0.26      0.35       208
+      scatter_plots       0.58      0.36      0.45       219
+         bar_charts       0.70      0.53      0.60       290
+
+           accuracy                           0.63      2906
+          macro avg       0.63      0.62      0.61      2906
+       weighted avg       0.63      0.63      0.62      2906
+
+                     precision    recall  f1-score   support
+
+            imaging       0.78      0.89      0.83        28
+         linecharts       0.42      0.45      0.44        31
+               maps       0.46      0.48      0.47        27
+             photos       0.93      0.93      0.93        30
+          piecharts       0.50      0.67      0.57        30
+             slides       0.35      0.40      0.37        35
+structured_diagrams       0.35      0.38      0.37        29
+             tables       0.37      0.37      0.37        30
+ technical_drawings       0.19      0.13      0.15        23
+      scatter_plots       0.38      0.20      0.26        25
+         bar_charts       0.67      0.56      0.61        32
+
+           accuracy                           0.51       320
+          macro avg       0.49      0.50      0.49       320
+       weighted avg       0.50      0.51      0.50       320
+
+
